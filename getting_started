@@ -50,7 +50,7 @@ Types of Commands:
    $ls -a          - displays list of files + hidden files 
    $ls -al         - displays list of files and hidden files with additional information
    
-Command .    - moves on a new line & whatever you have typed will not be executed
+Command .    - moves onto a new line & whatever you have typed will not be executed
 Control U    - erases the whole line 
 Command +    - use it to enlarge the Terminal window
 Command -    - use it to minimize the Terminal window
