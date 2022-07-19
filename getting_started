@@ -1,0 +1,57 @@
+What is Operating System (OS)?
+
+A control program for a computer, which allocates computer resources and schedules tasks. Computer resources inlcude: central processing unit(CPU),
+system memory, disk, tape storage, printers, terminals, modems & pretty much anything else connected to the computer. OS provides you with an
+interface to access computer resources. 
+
+What is Unix?
+
+1. Multi-user operating system which allows multiple users to use the computer resources at a time. 
+2. Direct commmunication with the computer - via Terminal.
+3. Ability to share data & programs among multiple users.
+
+Where do I find Unix?
+
+Finder -> Application -> Utilities -> Terminal 
+(OR command + space and type Terminal)
+
+Anything else?
+
+Inside the Terminal, you will be working with a program known as 'shell'. 
+Shell supports the interaction between yourself & the Unix OS.
+There are different types of Shell. To check which one you have:
+   $echo $SHELL
+   
+What is the format for Unix?
+
+Unix accepts arguments. An argument is either an option or a filename. Therefore the general format for a Unix command line is:
+  [command options(s) filename(s)]
+  
+where
+
+  [command]     - lowercase
+  [option(s)]   - modifies the way a command works. Options are usually single letters prefixed with a hyphen (-). Some commands also have options made from full words but with two hyphens (--) such as --confirm-delete
+  [filename(s)] - the name of a file
+  
+Types of Commands:
+
+  1. Graphical 
+  2. Non-interactive
+  3. Interactive 
+
+ A few intro commands:
+
+   $who am i       - displays current account using Terminal
+   $date           - displays current date
+   $exit           - exit the Terminal
+   $open -a Chess  - opens the Chess game/can replace Chess with any other program
+   $ls             - displays list of files 
+   $ls -l          - displays list of files with additional information such as owner, date created etc.
+   $ls -a          - displays list of files + hidden files 
+   $ls -al         - displays list of files and hidden files with additional information
+   
+Command .    - moves on a new line & whatever you have typed will not be executed
+Control U    - erases the whole line 
+Command +    - use it to enlarge the Terminal window
+Command -    - use it to minimize the Terminal window
+
