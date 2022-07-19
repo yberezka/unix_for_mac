@@ -54,4 +54,5 @@ Command .    - moves onto a new line & whatever you have typed will not be execu
 Control U    - erases the whole line 
 Command +    - use it to enlarge the Terminal window
 Command -    - use it to minimize the Terminal window
+Command L    - erases content 
 
