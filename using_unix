@@ -4,6 +4,24 @@ Once inside the Terminal, you can have an account that gives you access to:
 A file = unit of storage and it can hold anything from text to a digitally encoded sound
 Files are organised into directories aka a special kind of file where the system stores information about other files
 
-  1. Home Directory: also known as login directory
-  2. Working Directory or Current Directory 
-  3. Parent Directory or Root Directory (can be written as / and can contain multiple subdirectories)
+  B. Username that identfies you & lets you control files 
+ 
+  C. Customized environment 
+  
+1. Home Directory: also known as a login directory
+2. Working Directory or Current Directory 
+3. Parent Directory or Root Directory (can be written as / and can contain multiple subdirectories): it can contain several other directories such as 'User', 'System' etc. these are known as subdirectories.
+
+  You can use pathways to specify a directory location. Pathways can be absolute or relative.
+    - Absolute: always begins with / 
+    - Relative: specifies location relative to your working directory
+    
+ Useful commands:
+   $pwd     - present working directory
+   $cd      - current working directory 
+   $touch   - creates an empty file
+   $ls      - list of files / subsdirectories conatained in WD
+   $du      - calculates size of files/subdirectories 
+   $df -h   - calculates systems free disk space in a user-friendly output
+   $passwd  - change password 
+   $sudo    - superuser / enables to modify protected files 
