@@ -1,0 +1,16 @@
+Careful....its wildcards!
+
+If you have a number of files in a directory that startes with same characters, this might help:
+
+    * aka Asterisk:
+    typing al* will return alerie, aleon, alson etc
+    typing .??* will return all files with dot
+    
+   ? aka Qustion Mark:
+   this stands for any single character 
+   typung b?e will return bye, bee etc.
+   
+   [] aka Square Brackets provides many options:
+   - [Hh]ello will return Hello and hello 
+   - hello[12] will return hello1, hello2
+   - adding a hyphen will help with consecutive ranges. hello[1-20] will return hello1....hello20.
