@@ -1,0 +1,10 @@
+There are 3 popular Unix editors:
+
+1. vi (all Unix systems have it)
+2. Pico (great choice for simple editing)
+3. Emacs (also widely used)
+
+How to create a new directory?
+  $ mkdir projectA  - creates Project A directory
+  $ mkdir projectA projectB - creates Project A and Project B directory (just add space to add multiple directories)
+  
