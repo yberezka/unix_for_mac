@@ -7,6 +7,7 @@ There are 3 popular Unix editors:
 How to create a new directory?
   $ mkdir projectA  - creates Project A directory
   $ mkdir projectA projectB - creates Project A and Project B directory (just add space to add multiple directories)
+  $ cp old new    - old is a pathname to original file & pathname of the new
   
 
 Vi editor has two important modes: 
