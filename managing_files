@@ -8,3 +8,28 @@ How to create a new directory?
   $ mkdir projectA  - creates Project A directory
   $ mkdir projectA projectB - creates Project A and Project B directory (just add space to add multiple directories)
   
+
+Vi editor has two important modes: 
+  command mode: moves cursor, deletes texts, copies, pastes, saves files etc.
+  insert mode: insert texts & characters.
+  
+  if you are in insert mode, ESC will move you back to command mode.
+
+To create a new file in VI:
+   $ vi hello - create a new file called hello
+   $ :q       - exit vi 
+   $ :q!      - force quit
+   $ :w       - write any changes to the file
+   $ :wq      - write and quit (OR ZZ does the same thing)
+  
+   
+Useful shortcuts:
+H       - move your mouse to the first line of text
+G       - move your mouse to the bottom line of text
+w       - move forward 
+b       - move backward
+/       - help to search for a specific word 
+x       - delete a character
+dd      - delete lines
+dw      - delete words 
+u       - undo deleted characters / lines/ words 
