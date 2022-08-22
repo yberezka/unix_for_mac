@@ -1,0 +1,20 @@
+cat fileA                Will display content of fileA
+cat fileA file B         Will display content of fileA and fileB
+cat > newfile            Will create a new file named newfile
+cat [fileA] > [fileB]    Will copy the contents of fileA to fileB. 
+
+grep                     Searches text and strings in a given file. 
+grep Hello fileA         Will search for Hello in a fileA          
+grep -i Hello fileA      Will perform case-insenstivie search for Hello in fileA
+grep -R 'Hi'             Will check current directory and in all of its subdirectories for Hi
+
+sort                     Will arrange lines of text alphabetically/numerically
+
+>               Usually a program writes to its standard output (the screen), you can change it                 by writing it to a file by adding (>) operator
+
+>>              Add more text to an existing file, instead of replacing it
+                (cat fileA >> fileB)
+                
+tr '[a-z]' '[A-Z]' < files   Changes all the letters to uppercase
+ls | sort                    Sort the output of a program
+ls | sort >> files           Append sorted output to a file
